@@ -1,2 +1,2 @@
-s = "Python"*100
+s = "A"*100
 print(s)
