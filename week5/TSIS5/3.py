@@ -1,0 +1,5 @@
+n = int(input())
+txt = open("1.txt", "r")
+w = txt.read()
+s = w.split("\n")
+print(*s[len(s) - n:])
